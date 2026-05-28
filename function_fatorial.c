@@ -1,9 +1,9 @@
  long fatorial(int n)
 {
-    long skibidi = 1;
+    long water = 1;
     for (int i = 1; i <= n; i++)
     {
-        skibidi *= i;
+        water *= i;
     }
-    return skibidi;
+    return water;
 }
