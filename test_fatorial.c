@@ -1,12 +1,15 @@
-#include <stdio.h>
 #include <assert.h>
+#include <stdio.h>
 #include "function_fatorial.c"
 
-int main()
+int main() 
 {
-    assert(fatorial(0) == 1);
-    assert(fatorial(1) == 1);
-    assert(fatorial(6) == 720);
-    printf("teste executado com sucesso!");
-    return 0;
+    printf("TESTE AUTOMATIZADO\n");
+    
+    assert(fatorial(0)==1);
+    assert(fatorial(1)==1);
+    assert(fatorial(6)==720);
+    
+    printf("\nTestes concluídos");
+    printf("Criado por: Marcelo Mendes");
 }
